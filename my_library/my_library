@@ -1,0 +1,6 @@
+#pragma once
+#ifndef MY_LIBRARY
+#define MY_LIBRARY
+
+
+#endif // MY_LIBRARY
