@@ -7,3 +7,4 @@ Main sources:
 
 - [Liz's website](https://atomheartother.github.io/)
 - [Theo Penavaire's blog](https://blog.theopnv.com/posts/cpp-dynamic-loading/)
+- [Caio Rodrigues's page](https://caiorss.github.io/C-Cpp-Notes/CwrapperToQtLibrary.html)

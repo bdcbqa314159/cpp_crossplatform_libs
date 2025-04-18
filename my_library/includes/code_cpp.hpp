@@ -1,3 +1,7 @@
+// Modified by Bernardo Cohen
+// Original comes from
+// https://caiorss.github.io/C-Cpp-Notes/CwrapperToQtLibrary.html
+
 #pragma once
 #ifndef MY_LIBRRARY_CODE_CPP_HPP
 #define MY_LIBRRARY_CODE_CPP_HPP
