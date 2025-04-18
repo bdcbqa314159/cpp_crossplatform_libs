@@ -7,10 +7,10 @@
 #include "code_cpp.hpp"
 #include "exported.hpp"
 
-EXPORTED std::string my_library();
+std::string my_library();
 
-EXPORTED double simple_addition(double, double);
+double simple_addition(double, double);
 
-NOT_EXPORTED double simple_multiplication(double, double);
+double simple_multiplication(double, double);
 
 #endif  // COMMON_FUNCTIONS_HPP
