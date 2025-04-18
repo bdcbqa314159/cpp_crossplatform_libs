@@ -2,5 +2,7 @@
 #ifndef MY_LIBRARY
 #define MY_LIBRARY
 
+#include "./includes/common_functions.hpp"
+
 
 #endif // MY_LIBRARY

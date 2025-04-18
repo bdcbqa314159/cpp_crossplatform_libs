@@ -1,7 +1,9 @@
 project(my_library)
 
 set(includes includes/)
-set(sources )
+set(sources src/common_functions.cpp
+
+)
 
 add_library(${PROJECT_NAME} ${sources})
 target_include_directories(${PROJECT_NAME} PUBLIC ${includes})
