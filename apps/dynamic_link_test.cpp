@@ -6,7 +6,7 @@
 int main() {
   std::cout << "working with dynamic loading...\n";
 
-  dlloader::DLLoaderUnix<MyLibraryFunctions> my_library_loader(
+  dlloader::DLLoader<MyLibraryFunctions> my_library_loader(
       LIBRARY_NAME, "allocator", "deallocator");
 
   my_library_loader.DLOpenLib();

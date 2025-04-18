@@ -40,10 +40,10 @@ class DLLoader : public IDLLoader<T> {
     using deallocClass = void (*)(T *);
 
     auto allocFunc = reinterpret_cast<allocClass>(
-        GetProcessAddress(handle, allocClassSymbol.c_str()));
+        GetProcAddress(handle, allocClassSymbol.c_str()));
 
     auto deleteFunc = reinterpret_cast<deallocClass>(
-        GetProcessAddress(handle, deallocClassSymbol.c_str()));
+        GetProcAddress(handle, deallocClassSymbol.c_str()));
 
     if (!allocFunc || !deleteFunc) {
       DLCloseLib();

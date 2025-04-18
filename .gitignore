@@ -153,3 +153,4 @@ compile_commands.json
 resources
 build_manual
 install/
+.vs
