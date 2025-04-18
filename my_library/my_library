@@ -2,7 +2,10 @@
 #ifndef MY_LIBRARY
 #define MY_LIBRARY
 
+#include "./includes/code_cpp.hpp"
+#include "./includes/exported.hpp"
 #include "./includes/common_functions.hpp"
+#include "./includes/functions_api.hpp"
 
 
 #endif // MY_LIBRARY

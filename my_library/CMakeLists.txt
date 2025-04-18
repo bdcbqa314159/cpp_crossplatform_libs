@@ -2,6 +2,7 @@ project(my_library)
 
 set(includes includes/)
 set(sources src/common_functions.cpp
+            src/functions_api.cpp
 
 )
 

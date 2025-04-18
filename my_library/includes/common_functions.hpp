@@ -4,6 +4,7 @@
 
 #include <string>
 
+#include "code_cpp.hpp"
 #include "exported.hpp"
 
 EXPORTED std::string my_library();
