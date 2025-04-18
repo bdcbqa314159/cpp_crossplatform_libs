@@ -1,5 +1,5 @@
 // Modified by Bernardo Cohen
-// Original come from https:// atomheartother.github.io/
+// Original comes from https:// atomheartother.github.io/
 
 #pragma once
 #ifndef MY_LIBRARY_EXPORTED_HPP
