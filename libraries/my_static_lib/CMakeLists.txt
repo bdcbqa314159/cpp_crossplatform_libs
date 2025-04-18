@@ -1,6 +1,5 @@
-project(my_static_library)
+project(my_static_lib)
 
-message(STATUS "****> ${common_includes_dir}")
 set(includes includes/)
 set(sources src/common_functions.cpp)
 

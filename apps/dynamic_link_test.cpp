@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "dl_loader"   // IWYU pragma: keep
-#include "my_library"  // IWYU pragma: keep
+#include "dl_loader"       // IWYU pragma: keep
+#include "my_dynamic_lib"  // IWYU pragma: keep
 
 int main() {
   std::cout << "working with dynamic loading...\n";

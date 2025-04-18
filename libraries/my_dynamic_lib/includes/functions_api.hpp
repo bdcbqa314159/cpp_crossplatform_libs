@@ -2,8 +2,9 @@
 #ifndef MY_LIBRARY_FUNCTIONS_API_HPP
 #define MY_LIBRARY_FUNCTIONS_API_HPP
 
+#include <string>
+
 #include "code_cpp.hpp"
-#include "common_functions.hpp"
 #include "exported.hpp"
 
 class EXPORTED MyLibraryFunctions {
