@@ -1,6 +1,6 @@
 #pragma once
-#ifndef MY_LIBRARY
-#define MY_LIBRARY
+#ifndef MY_LIBRARY_INCLUDES
+#define MY_LIBRARY_INCLUDES
 
 #include "./includes/code_cpp.hpp"
 #include "./includes/exported.hpp"
@@ -8,4 +8,4 @@
 #include "./includes/functions_api.hpp"
 
 
-#endif // MY_LIBRARY
+#endif // MY_LIBRARY_INCLUDES

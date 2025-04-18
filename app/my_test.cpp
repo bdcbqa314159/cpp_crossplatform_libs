@@ -4,6 +4,8 @@
 
 // This works because the library is statically linked.
 // The library is not exported, so we can use it directly.
+// If the library is dynamically linked simple_multiplication would not be
+// available here.
 
 int main() {
   std::cout << my_library() << std::endl;
@@ -11,8 +13,8 @@ int main() {
   std::cout << "simple_addition(1.0, 2.0) = " << simple_addition(1.0, 2.0)
             << std::endl;
 
-  std::cout << "simple_multiplication(1.0, 2.0) = "
-            << simple_multiplication(1.0, 2.0) << std::endl;
+  // std::cout << "simple_multiplication(1.0, 2.0) = "
+  //           << simple_multiplication(1.0, 2.0) << std::endl;
 
   MyLibraryFunctions *my_library_functions = allocator();
 

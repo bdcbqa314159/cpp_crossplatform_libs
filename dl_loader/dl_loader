@@ -1,0 +1,10 @@
+#pragma once
+
+#ifndef DL_LOADER_INCLUDES
+#define DL_LOADER_INCLUDES
+
+#include "./DLLoader_unix.hpp"
+#include "./IDLLoader.hpp"
+#include "./library_names.hpp"
+
+#endif  // DL_LOADER_INCLUDES
