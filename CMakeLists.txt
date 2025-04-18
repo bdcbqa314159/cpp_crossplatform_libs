@@ -30,4 +30,4 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # add_subdirectory(my_library)
 add_subdirectory(libraries)
-add_subdirectory(app)
+add_subdirectory(apps)
