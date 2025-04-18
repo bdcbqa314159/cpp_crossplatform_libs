@@ -147,7 +147,7 @@ ipch/
 # personal stuff
 docs
 .cache
-.clang-format
+# .clang-format
 **/.DS_Store
 compile_commands.json
 resources
