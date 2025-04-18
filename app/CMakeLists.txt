@@ -1,6 +1,6 @@
 project(app)
 
-set(includes ./ ../my_library/ ../dl_loader/)
+set(includes ./ ../my_library/ ${dlloader_include_dir} ${dlloader_include_dir_platform})
 
 add_executable(my_test my_test.cpp)
 target_include_directories(my_test PUBLIC ${includes})

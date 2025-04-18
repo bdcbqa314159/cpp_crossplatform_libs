@@ -7,6 +7,18 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+if(WIN32)
+    message(STATUS "Windows detected")
+    set(dlloader_include_dir_platform ${CMAKE_SOURCE_DIR}/dl_loader/windows)
+endif()
+
+if(UNIX)
+    message(STATUS "Unix system detected")
+    set(dlloader_include_dir_platform ${CMAKE_SOURCE_DIR}/dl_loader/linux)
+endif()
+
+set(dlloader_include_dir ${CMAKE_SOURCE_DIR}/dl_loader)
+
 MESSAGE(STATUS "the source directory is: ${CMAKE_SOURCE_DIR}")
 MESSAGE(STATUS "the binary directory is: ${CMAKE_BINARY_DIR}")
 

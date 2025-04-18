@@ -2,6 +2,7 @@
 #ifndef IDL_LOADER_UNIX_HPP
 #define IDL_LOADER_UNIX_HPP
 
+#if defined(__linux__) || defined(__APPLE__)
 #include <dlfcn.h>
 
 #include "IDLLoader.hpp"
@@ -59,5 +60,6 @@ class DLLoaderUnix : public IDLLoader<T> {
   }
 };
 }  // namespace dlloader
+#endif  // defined(__linux__) || defined(__APPLE__)
 
 #endif  // IDL_LOADER_UNIX_HPP
