@@ -4,10 +4,12 @@
 
 #include <string>
 
-std::string my_library();
+#include "exported.hpp"
 
-double simple_addition(double, double);
+EXPORTED std::string my_library();
 
-double simple_multiplication(double, double);
+EXPORTED double simple_addition(double, double);
+
+NOT_EXPORTED double simple_multiplication(double, double);
 
 #endif  // COMMON_FUNCTIONS_HPP
